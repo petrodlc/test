@@ -3,6 +3,6 @@ title: First page
 layout: default
 ---
 
-The firste page
+# The first page
 
 Incredible
