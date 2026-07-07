@@ -39,4 +39,5 @@ Three-dimensional table, storing raman shifts and corresponding signal and backg
 
 ### Deleter
 
-Resets to
+Resets to a `numpy.ndarray` of size (0, 3, 0) filled with `None`.
+Resets all properties but [`name`](/Documentation/Spectra/Properties/name) to their default values.
