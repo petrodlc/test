@@ -1,5 +1,5 @@
 ---
-title: "{{ `spectra` | escape | markdownify | remove: '<p>' | remove: '</p>' }}"
+title: spectra
 layout: page
 parent: Documentation
 ---
