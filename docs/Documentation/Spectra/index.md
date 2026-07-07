@@ -1,5 +1,5 @@
 ---
-title: `spectra`
+title: "`spectra`"
 layout: page
 parent: Documentation
 ---
