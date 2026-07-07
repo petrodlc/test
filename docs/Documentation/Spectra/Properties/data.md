@@ -27,14 +27,14 @@ Three-dimensional table, storing raman shifts and corresponding signal and backg
 
 #### Returns
 {: .no_toc }
-- data (`numpy.ndarray(numpy.float)` of shape (*m*, 3, *n*)):
+- data (`numpy.ndarray(numpy.float)` of shape (*m*, 3, *n*)):\
   a copy of the actual data stored in the class
 
 ### Setter
 
 #### Parameters
 {: .no_toc }
-- data (`array like (float)` of shape (*, 3, *)):
+- data (`array like (float)` of shape (*, 3, *)):\
   the data to store ; will be copied ; resets all other attributes except name to their default value
 
 ### Deleter
