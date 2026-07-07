@@ -34,7 +34,7 @@ This is equivalent to [`spectra.mean_data[:, 0, :]`][mean data]
 - mean_shift ([`numpy.ndarray`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html){:target="_blank"}(`numpy.float`) of shape (*m*, 2)):\
   a copy of the actual mean shift stored in [`spectra.mean_data[:, 0, :]`][mean data]
 
----
+<!--------------------------------------------------------------------------->
 
 [data]: {{ site.url }}/Documentation/Spectra/Properties/data "spectra.data"
 [mean data]: {{ site.url }}/Documentation/Spectra/Properties/mean_data "spectra.mean_data"
