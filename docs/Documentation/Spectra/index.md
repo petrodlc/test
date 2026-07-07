@@ -30,6 +30,9 @@ It provides all the processing utilities for set of spectrums
 ##### [`spectra.name`][name]
 ##### [`spectra.shift`][shift]
 
+- test
+{: .toc }
+
 ## Methods
 
 <!--------------------------------------------------------------------------->
