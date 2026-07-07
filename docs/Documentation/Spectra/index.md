@@ -31,7 +31,7 @@ It provides all the processing utilities for set of spectrums
 ##### [`spectra.shift`][shift]
 
 - test
-{: .toc }
+{: .in_toc }
 
 ## Methods
 
