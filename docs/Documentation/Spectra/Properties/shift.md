@@ -17,6 +17,7 @@ parent: spectra
 </details>
 
 The raman shifts for all spectrums.
+
 Two-dimensional table, storing raman shifts each spectrum, equivalent of [`spectra.data[:, 0, :]`]({{ site.url }}/Documentation/Spectra/Properties/data).
 
 - *n* represents the number of spectrums in this class instance
