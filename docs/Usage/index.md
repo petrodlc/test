@@ -29,3 +29,4 @@ No plotting utility is currently added as matplotlib.pyplot works fine as is. If
 ```python
 import matplotlib.pyplot as plt
 ```
+For matplotlib usage, chack its [documentation](https://matplotlib.org/stable/api/index.html).
