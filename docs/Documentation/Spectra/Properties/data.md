@@ -32,10 +32,12 @@ Three-dimensional table, storing raman shifts and corresponding signal and backg
 
 ### Setter
 
+Raplace the old data with a copy of the data provided, and resets all other attributes except [`name`]({{ site.url }}/Documentation/Spectra/Properties/name) to their default value.
+
 #### Parameters
 {: .no_toc }
 - data (array like (`float`) of shape (*, 3, *)):\
-  the data to store ; will be copied ; resets all other attributes except name to their default value
+  the data to store
 
 ### Deleter
 
