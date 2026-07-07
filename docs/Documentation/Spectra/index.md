@@ -21,14 +21,14 @@ It provides all the processing utilities for set of spectrums
 
 ## Properties
 
-### [`spectra.bkg`][bkg]
-### [`spectra.count`][count]
-### [`spectra.data`][data]
-### [`spectra.fit`][fit]
-### [`spectra.mean_data`][mean data]
-### [`spectra.mean_shift`][mean shift]
-### [`spectra.name`][name]
-### [`spectra.shift`][shift]
+#### [`spectra.bkg`][bkg]
+#### [`spectra.count`][count]
+#### [`spectra.data`][data]
+#### [`spectra.fit`][fit]
+#### [`spectra.mean_data`][mean data]
+#### [`spectra.mean_shift`][mean shift]
+#### [`spectra.name`][name]
+#### [`spectra.shift`][shift]
 
 ## Methods
 
