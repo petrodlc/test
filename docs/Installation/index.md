@@ -14,7 +14,7 @@ nav_order: 1
   {: .text-delta }
 - TOC
 {:toc}
-<\details>
+</details>
 
 Here comes installation instructions.
 
