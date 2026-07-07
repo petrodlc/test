@@ -18,7 +18,7 @@ parent: spectra
 
 The signal intensity for all spectrums.
 
-Two-dimensional table, storing signal intensity for each spectrum, equivalent of [`spectra.data[:, 1, :]`]({{ site.url }}/Documentation/Spectra/Properties/data).
+Two-dimensional table, storing signal intensity for each spectrum, equivalent to [`spectra.data[:, 1, :]`]({{ site.url }}/Documentation/Spectra/Properties/data).
 
 - *n* represents the number of spectrums in this class instance
 - *m* is the number of measure points par spectrum (should be the same for all)
