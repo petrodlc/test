@@ -27,12 +27,12 @@ Three-dimensional table, storing raman shifts and corresponding signal and backg
 
 #### Returns
 {: .no_toc }
-- data ([`numpy.ndarray`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html){:target="_blank"}(`numpy.float`) of shape (*m*, 3, *n*)):\
+- data ([`numpy.ndarray`][ndarray]{:target="_blank"}(`numpy.float`) of shape (*m*, 3, *n*)):\
   a copy of the actual data stored in the class
 
 ### Setter
 
-Raplace the old data with a copy of the data provided, and resets all other attributes except [`name`]({{ site.url }}/Documentation/Spectra/Properties/name) to their default value.
+Raplace the old data with a copy of the data provided, and resets all other attributes except [`name`][name] to their default value.
 
 #### Parameters
 {: .no_toc }
@@ -41,5 +41,11 @@ Raplace the old data with a copy of the data provided, and resets all other attr
 
 ### Deleter
 
-Resets to a [`numpy.ndarray`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html){:target="_blank"} of size (0, 3, 0) filled with `None`.
-Resets all properties but [`name`]({{ site.url }}/Documentation/Spectra/Properties/name) to their default values.
+Resets to a [`numpy.ndarray`][ndarray]{:target="_blank"} of size (0, 3, 0) filled with `None`.
+Resets all properties but [`name`][name] to their default values.
+
+<!--------------------------------------------------------------------------->
+
+[data]: {{ site.url }}/Documentation/Spectra/Properties/data "spectra.data"
+[name]: {{ site.url }}/Documentation/Spectra/Properties/name "spectra.name"
+[ndarray]: https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html "numpy.ndarray"
