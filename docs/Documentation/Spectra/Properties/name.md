@@ -8,18 +8,18 @@ parent: spectra
 
 This property gives access to the name associated with a spectra instance.
 
-## Getter
+### Getter
 
 #### Returns
 {: .no_toc }
 - `str`
 
-## Setter
+### Setter
 
 #### Parameters
 {: .no_toc }
-- name (str or anything that can be converted to `str`)
+- name (`str` or anything that can be converted to `str`)
 
-## Deleter
+### Deleter
 
 Resets the name to an empty `str` (`''`).
