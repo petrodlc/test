@@ -27,7 +27,7 @@ Three-dimensional table, storing raman shifts and corresponding signal and backg
 
 #### Returns
 {: .no_toc }
-- data (`[numpy.ndarray](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html){:target="_blank"}(numpy.float)` of shape (*m*, 3, *n*)):\
+- data ([`numpy.ndarray`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html){:target="_blank"}(`numpy.float`) of shape (*m*, 3, *n*)):\
   a copy of the actual data stored in the class
 
 ### Setter
@@ -39,5 +39,5 @@ Three-dimensional table, storing raman shifts and corresponding signal and backg
 
 ### Deleter
 
-Resets to a `[numpy.ndarray](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html){:target="_blank"}` of size (0, 3, 0) filled with `None`.
+Resets to a [`numpy.ndarray`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html){:target="_blank"} of size (0, 3, 0) filled with `None`.
 Resets all properties but [`name`]({{ site.url }}/Documentation/Spectra/Properties/name) to their default values.
