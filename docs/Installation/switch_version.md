@@ -1,6 +1,7 @@
 ---
 title: Switching between versions
 layout: page
+parent: Installation
 ---
 
 # Switching between versions
