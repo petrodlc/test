@@ -14,6 +14,9 @@ color_scheme: light
 back_to_top: true
 back_to_top_text: "Back to top"
 
+search:
+    focus_shortcut_key: 'k'
+
 callouts:
   highlight:
     color: yellow
