@@ -32,4 +32,4 @@ import matplotlib.pyplot as plt
 For matplotlib usage, chack its [documentation](https://matplotlib.org/stable/api/index.html).
 
 ## Workflow
-{: site.title } is designed with live processing from python console in mind: main class and several custom scrits for automated basic actions, such as preprocessing are imported, then the main processing occur in console.
+{{ site.title }} is designed with live processing from python console in mind: main class and several custom scrits for automated basic actions, such as preprocessing are imported, then the main processing occur in console.
