@@ -32,4 +32,17 @@ import matplotlib.pyplot as plt
 For matplotlib usage, chack its [documentation](https://matplotlib.org/stable/api/index.html).
 
 ## Workflow
-{{ site.title }} is designed with live processing from python console in mind: main class and several custom scrits for automated basic actions, such as preprocessing are imported, then the main processing occur in console.
+{{ site.title }} is designed with live processing from python console in mind: main class and several custom scrits for automated basic actions, such as preprocessing are imported, then the main processing occurs in console.
+
+### Basic workflow
+{: .no_toc }
+1. In python files, write scripts and function to handle processing steps that are often repeated, such as preprocessing.
+2. Compute and store variables for simpler use in processing, like path to data.
+3. Import every thing and `Ramaspec.spectra` file from within python console
+4. Ready to process data !
+
+{: .important }
+> All processes repeated that do not need any human action could and **shoud** be written to python files.
+> The purpose of live processing is not to make the same things again and again, but to be able to adapt processing depending of what data look like.
+>
+> Once the whole prcessing steps are clearly defined, and all that is left is to process the whole dataset blindly with this parameters, juste write a script, and call it once.
