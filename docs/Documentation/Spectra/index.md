@@ -2,6 +2,7 @@
 title: spectra
 layout: page
 parent: Documentation
+has_toc: false
 ---
 
 # `spectra`
