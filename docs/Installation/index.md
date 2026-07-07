@@ -28,6 +28,9 @@ Dependencies required:
 {: .note}
 Python libraries should be installed in a [virtual environment](https://docs.python.org/3/library/venv.html).
 
+{: .note }
+A paragraph
+
 Recommended:
 - [git](https://git-scm.com/install/windows) (for installation and updates, tought it is still possible to download raw files without it)
 - [matplotlib](https://matplotlib.org/stable/install/index.html), as no plotting utility is provided
