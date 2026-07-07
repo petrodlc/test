@@ -29,5 +29,10 @@ and before [`spectra.data`]({{ site.url }}/Documentation/Spectra/Properties/data
 
 #### Returns
 {: .no_toc }
-- mean_data ([`numpy.ndarray`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html){:target="_blank"}(`numpy.float`) of shape (*m*, 2, *n*)):\
+- mean_data ([`numpy.ndarray`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html){:target="_blank"}(`numpy.float`) of shape (*m*, 3, 2)):\
   a copy of the actual mean_data stored in the class instance
+
+### Deleter
+
+Defaults to a [`numpy.ndarray`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html){:target="_blank"} of shape (*m*, 3, 2) filled with `None`,
+where *m* is computed from current shape of [`spectra.data`]({{ site.url }}/Documentation/Spectra/Properties/data).
