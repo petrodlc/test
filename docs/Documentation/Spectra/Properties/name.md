@@ -5,6 +5,16 @@ parent: spectra
 ---
 
 # `spectra.name`
+{: .no_toc }
+
+<details close markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 This property gives access to the name associated with a spectra instance.
 
