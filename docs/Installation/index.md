@@ -39,9 +39,13 @@ Python libraries should be installed in a [virtual environment](https://docs.pyt
 
 ## Install
 
-Navigate to any place on your computer where you ant it installed, and clone the git repository:
+Navigate to any place on your computer where you want it installed, and clone the git repository:
 ```shell
 git clone https://github.com/petrodlc/Ramaspec.git
 ```
 
 ## Update
+From within the installation directory, run the following git command:
+```shell
+git pull
+```
