@@ -21,7 +21,7 @@ Three-dimensional table, storing raman shifts and corresponding signal and backg
 
 - *n* represents the number of spectrums in this class instance
 - *m* is the number of measure points par spectrum (should be the same for all)
-- * is any size
+- \* is any size
 
 ### Getter
 
