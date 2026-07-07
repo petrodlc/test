@@ -9,9 +9,9 @@ nav_order: 1
 
 <details open markdown="block">
   <summary>
-    ## Table of Contents
+    Table of Contents
   </summary>
-  {: .no_toc .text-delta }
+  {: .text-delta }
 - TOC
 {:toc}
 </details>
