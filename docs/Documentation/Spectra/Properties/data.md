@@ -34,7 +34,7 @@ Three-dimensional table, storing raman shifts and corresponding signal and backg
 
 #### Parameters
 {: .no_toc }
-- data (`array like (float)` of shape (*, 3, *)):\
+- data (array like (`float`) of shape (*, 3, *)):\
   the data to store ; will be copied ; resets all other attributes except name to their default value
 
 ### Deleter
