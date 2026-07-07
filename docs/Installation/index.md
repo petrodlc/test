@@ -5,8 +5,12 @@ nav_order: 1
 ---
 
 # Installation
+{: .no_toc }
 
-1. TOC
+## Table of Contents
+{: .no_toc .text-delta }
+
+- TOC
 {:toc}
 
 Here comes installation instructions.
