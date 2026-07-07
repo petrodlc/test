@@ -7,11 +7,14 @@ nav_order: 1
 # Installation
 {: .no_toc }
 
-## Table of Contents
-{: .no_toc .text-delta }
-
+<details open markdown="block">
+  <summary>
+    Table of Contents
+  </summary>
+  {: .text-delta }
 - TOC
 {:toc}
+<\details>
 
 Here comes installation instructions.
 
@@ -30,7 +33,7 @@ Here comes installation instructions.
 Python libraries should be installed in a [virtual environment](https://docs.python.org/3/library/venv.html).
 
 #### Recommended:
-{: .not_toc }
+{: .no_toc }
 - [git](https://git-scm.com/install/windows) (for installation and updates, tought it is still possible to download raw files without it)
 - [matplotlib](https://matplotlib.org/stable/install/index.html), as no plotting utility is provided
 
