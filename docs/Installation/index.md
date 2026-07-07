@@ -7,7 +7,7 @@ nav_order: 1
 # Installation
 {: .no_toc }
 
-<details open markdown="block">
+<details close markdown="block">
   <summary>
     Table of Contents
   </summary>
