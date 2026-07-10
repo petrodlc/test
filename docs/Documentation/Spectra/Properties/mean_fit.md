@@ -28,7 +28,8 @@ f_{LBWF}(w, p) = I_D \frac{\left(\frac{\Gamma_D}{2}\right)^2}{\left(w - w_D\righ
                + I_G \frac{\left(1 + \left(2\cdot\frac{w - w_G}{Q\Gamma_G}\right)\right)^2}{1 + \left(2\cdot\frac{w - w_G}{\Gamma_G}\right)^2}
                + y_0
 $$
-with $ p = \left[w_G, I_G, \Gamma_G, \frac{1}{Q}, w_D, I_D, \Gamma_D, y_0\right] $.
+
+with $p = \left[w_G, I_G, \Gamma_G, \frac{1}{Q}, w_D, I_D, \Gamma_D, y_0\right]$.
 
 
 - *m* is the number of measure points par spectrum (should be the same for all)
