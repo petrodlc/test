@@ -22,13 +22,13 @@ One-dimensional table, storing mean fit line computed at call time from [`spectr
 It needs [`spectra.mean_fit_params`][mean_fit_params] to be initialized.
 
 The fit is the sum of a Cauchy (or Lorentz) distribution (for D peak) and a Breit-Wigner-Fano (BWF) distribution (for G peak), with a parameter controlling the vertical offset added :
-```
+
 $$
 f_{LBWF}(w, p) = I_D \frac{\left(\frac{\Sigma}{2}\right)^2}{\left(w - w_D\right)^2 + \left(\frac{\Sigma}{2}\right)^2}
                + I_G \dots
                + y_0
 $$
-```
+
 
 - *m* is the number of measure points par spectrum (should be the same for all)
 
