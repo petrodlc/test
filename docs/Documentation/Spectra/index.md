@@ -33,6 +33,11 @@ It provides all the processing utilities for set of spectrums
 
 ## Methods
 
+## Test
+
+{{ page.path }}
+{{ site.pages.path }}
+
 <!--------------------------------------------------------------------------->
 
 [bkg]: {{ site.url }}/Documentation/Spectra/Properties/bkg "spectra.bkg"
