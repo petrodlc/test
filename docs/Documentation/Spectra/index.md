@@ -31,14 +31,6 @@ It provides all the processing utilities for set of spectrums
   {%- if type[0] == part %}
 - [`{{ child.title }}`]({{ child.url | relative_url }})
   {%- endif -%}
-{%- endfor -%}
 {%- endfor %}
 
-## Methods
-
-{%- for child in children -%}
-  {%- assign type = child.path | downcase | split: "/" | slice: -2 -%}
-  {%- if type[0] == "methods" %}
-- [`{{ child.title }}`]({{ child.url | relative_url }})
-  {%- endif -%}
-{%- endfor %}
+{% endfor %}
