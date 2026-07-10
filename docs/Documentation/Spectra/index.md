@@ -37,7 +37,7 @@ It provides all the processing utilities for set of spectrums
 
 {% for p in site.pages -%}
   {%- if page.title == p.parent -%}
-- [`{{- p.title -}}`]({{- p.url | relative_url -}}) {{ p.path | split "/" | last }}
+- [`{{- p.title -}}`]({{- p.url | relative_url -}}) {{ p.path }}
 {{ nil }}
   {%- endif -%}
 {%- endfor %}
