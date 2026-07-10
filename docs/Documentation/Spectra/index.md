@@ -20,26 +20,15 @@ has_toc: false
 `spectra` is the main (and currently the only) class provided by {{ site.title }}.
 It provides all the processing utilities for set of spectrums
 
-## Properties
+{% assign children = site.pages | where: "parent", page.title -%}
+{%- assign parts = "properties, methods" | split: ", " -%}
 
-- [`spectra.bkg`][bkg]
-- [`spectra.count`][count]
-- [`spectra.data`][data]
-- [`spectra.fit`][fit]
-- [`spectra.mean_data`][mean data]
-- [`spectra.mean_shift`][mean shift]
-- [`spectra.name`][name]
-- [`spectra.shift`][shift]
-
-## Methods
-
-{%- assign children = site.pages | where: "parent", page.title -%}
-
-## Properties
+{%- for part in parts %}
+## {{ part }}
 
 {%- for child in children -%}
   {%- assign type = child.path | downcase | split: "/" | slice: -2 -%}
-  {%- if type[0] == "properties" %}
+  {%- if type[0] == part %}
 - [`{{ child.title }}`]({{ child.url | relative_url }})
   {%- endif -%}
 {%- endfor %}
@@ -52,14 +41,3 @@ It provides all the processing utilities for set of spectrums
 - [`{{ child.title }}`]({{ child.url | relative_url }})
   {%- endif -%}
 {%- endfor %}
-
-<!--------------------------------------------------------------------------->
-
-[bkg]: {{ site.url }}/Documentation/Spectra/Properties/bkg "spectra.bkg"
-[count]: {{ site.url }}/Documentation/Spectra/Properties/count "spectra.count"
-[data]: {{ site.url }}/Documentation/Spectra/Properties/data "spectra.data"
-[fit]: {{ site.url }}/Documentation/Spectra/Properties/fit "spectra.fit"
-[mean data]: {{ site.url }}/Documentation/Spectra/Properties/mean_data "spectra.mean_data"
-[mean shift]: {{ site.url }}/Documentation/Spectra/Properties/mean_shift "spectra.mean_shift"
-[name]: {{ site.url }}/Documentation/Spectra/Properties/name "spectra.name"
-[shift]: {{ site.url }}/Documentation/Spectra/Properties/shift "spectra.shift"
