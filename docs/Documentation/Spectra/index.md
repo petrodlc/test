@@ -36,7 +36,11 @@ It provides all the processing utilities for set of spectrums
 ## Test
 
 {{ page.path }}
-{{ site.pages | inspect }}
+
+{% for p in site.pages %}
+  {{ p.title }}
+{% endfor %}
+
 {{ page.parent }}
 
 <!--------------------------------------------------------------------------->
