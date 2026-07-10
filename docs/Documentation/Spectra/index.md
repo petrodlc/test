@@ -33,15 +33,23 @@ It provides all the processing utilities for set of spectrums
 
 ## Methods
 
-## Test
+{%- assign children = site.pages | where: "parent", page.title -%}
 
-{{ page.path | split:"/" | slice: -2 }}
+## Properties
 
-{% assign children = site.pages | where: "parent", page.title -%}
 {%- for child in children -%}
   {%- assign type = child.path | downcase | split: "/" | slice: -2 -%}
   {%- if type[0] == "properties" %}
-- [`{{ child.title }}`]({{ child.url | relative_url }}) -- {{ type }}
+- [`{{ child.title }}`]({{ child.url | relative_url }})
+  {%- endif -%}
+{%- endfor %}
+
+## Methods
+
+{%- for child in children -%}
+  {%- assign type = child.path | downcase | split: "/" | slice: -2 -%}
+  {%- if type[0] == "methods" %}
+- [`{{ child.title }}`]({{ child.url | relative_url }})
   {%- endif -%}
 {%- endfor %}
 
