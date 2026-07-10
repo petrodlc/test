@@ -2,6 +2,7 @@
 title: spectra.mean_fit
 layout: page
 parent: spectra
+math: mathjax
 ---
 
 # `spectra.mean_fit`
