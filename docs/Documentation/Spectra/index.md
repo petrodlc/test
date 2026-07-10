@@ -35,7 +35,7 @@ It provides all the processing utilities for set of spectrums
 
 ## Test
 
-{% assign test = page.path | split "/" %}
+{% assign test = page.path %}
 {{ test }}
 
 {% for p in site.pages -%}
