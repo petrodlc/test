@@ -20,10 +20,10 @@ has_toc: false
 `spectra` is the main (and currently the only) class provided by {{ site.title }}.
 It provides all the processing utilities for set of spectrums
 
-{% assign children = site.pages | where: "parent", page.title -%}
+{%- assign children = site.pages | where: "parent", page.title -%}
 {%- assign parts = "properties, methods" | split: ", " -%}
 
-{%- for part in parts -%}
+{% for part in parts %}
 ## {{ part | capitalize }}
 
 {%- for child in children -%}
@@ -31,7 +31,7 @@ It provides all the processing utilities for set of spectrums
   {%- if type[0] == part %}
 - [`{{ child.title }}`]({{ child.url | relative_url }})
   {%- endif -%}
-{%- endfor %}
+{%- endfor -%}
 {%- endfor %}
 
 ## Methods
