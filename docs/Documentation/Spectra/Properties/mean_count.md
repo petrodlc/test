@@ -18,7 +18,7 @@ parent: spectra
 
 The mean intensity from all spectrums.
 
-Three-dimensional table, storing intensity mean values (`spectra.mean_count[:, 0]`) and standard deviation (`spectra.mean_count[:, 1]`)
+Three-dimensional table, storing signal intensity mean values (`spectra.mean_count[:, 0]`) and standard deviation (`spectra.mean_count[:, 1]`)
 computed along 3<sup>rd</sup> axis (spectrums) of [`spectra.data`][data].
 Its value is distinct from the default only after [`spectra.compute_mean_data`][compute mean data] has been called
 and before [`spectra.data`][data] is [set][data setter] to a new value.
@@ -32,7 +32,7 @@ This is equivalent to [`spectra.mean_data[:, 1, :]`][mean data]
 #### Returns
 {: .no_toc }
 - mean_count ([`numpy.ndarray`][ndarray]{:target="_blank"}(`numpy.float`) of shape (*m*, 2)):\
-  a copy of the actual mean intensity stored in [`spectra.mean_data[:, 0, :]`][mean data]
+  a copy of the actual mean intensity stored in [`spectra.mean_data[:, 1, :]`][mean data]
 
 <!--------------------------------------------------------------------------->
 
