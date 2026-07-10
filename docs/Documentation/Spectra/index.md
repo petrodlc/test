@@ -32,6 +32,7 @@ It provides all the processing utilities for set of spectrums
 - [`{{ child.title }}`]({{ child.url | relative_url }})
   {%- endif -%}
 {%- endfor %}
+{%- endfor -%}
 
 ## Methods
 
