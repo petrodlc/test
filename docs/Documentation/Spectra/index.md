@@ -37,10 +37,11 @@ It provides all the processing utilities for set of spectrums
 
 {{ page.path | split:"/" | slice: -2 }}
 
-{% assign children = site.pages | where: "parent", page.title %}
-{% for child in children %}
-{{ child.title }}
-{% endfor %}
+{%- assign children = site.pages | where: "parent", page.title -%}
+{%- for child in children -%}
+- [`{{ child.title }}`]({{ child.url | relative_url }}) -- {{ type }}
+{{ nil }}
+{%- endfor -%}
 
 {% for p in site.pages -%}
   {%- if page.title == p.parent -%}
