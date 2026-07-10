@@ -32,11 +32,12 @@ $$
 
 with $$ p = \left[w_G, I_G, \Gamma_G, \frac{1}{Q}, w_D, I_D, \Gamma_D, y_0\right] $$
 and parameters represent:
-- $$ w_G $$, $$ w_D $$:| the position of G and D peak respectively (if $$ \frac{1}{Q} \ll 1 $$, and $$ \left\|w_G - w_D\right\| $$ is large enough that the two peaks are clearly distinct)
-- $$ I_G $$, $$ I_D $$:| the maximum intensity of the peaks (at $$ w_G $$ and $$ w_D $$)
-- $$ \Gamma_G $$, $$ \Gamma_D $$:| the full with at half maximum (FWHM) of each peak
-- $$ \frac{1}{Q} $$|: the asymmetric factor of G peak
-- $$ y_0 $$:| the vertical offset added to let the function reach $$ 0 $$
+
+$$ w_G $$, $$ w_D $$:| the position of G and D peak respectively (if $$ \frac{1}{Q} \ll 1 $$, and $$ \left\|w_G - w_D\right\| $$ is large enough that the two peaks are clearly distinct)
+$$ I_G $$, $$ I_D $$:| the maximum intensity of the peaks (at $$ w_G $$ and $$ w_D $$)
+$$ \Gamma_G $$, $$ \Gamma_D $$:| the full with at half maximum (FWHM) of each peak
+$$ \frac{1}{Q} $$|: the asymmetric factor of G peak
+$$ y_0 $$:| the vertical offset added to let the function reach $$ 0 $$
 
 
 - *m* is the number of measure points par spectrum (should be the same for all)
