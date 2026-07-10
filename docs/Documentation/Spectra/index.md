@@ -40,14 +40,8 @@ It provides all the processing utilities for set of spectrums
 {% assign children = site.pages | where: "parent", page.title -%}
 {%- for child in children -%}
   {%- assign type = child.path | split: "/" | slice: -2 -%}
+  {%- if type == "Properties" %}
 - [`{{ child.title }}`]({{ child.url | relative_url }}) -- {{ type }}
-{% endfor %}
-
-{% for p in site.pages -%}
-  {%- if page.title == p.parent -%}
-  {%- assign type = p.path | split: "/" | slice: -2 -%}
-- [`{{- p.title -}}`]({{- p.url | relative_url -}}) -- {{ type }}
-{{ nil }}
   {%- endif -%}
 {%- endfor %}
 
