@@ -37,9 +37,9 @@ It provides all the processing utilities for set of spectrums
 
 {{ page.path | split:"/" | slice: -2 }}
 
-{% assign children = site.pages | where "parent", page.title %}
+{% assign children = site.pages | where: "parent", page.title %}
 {% for child in children %}
-cild.title
+{{ child.title }}
 {% endfor %}
 
 {% for p in site.pages -%}
