@@ -24,7 +24,7 @@ It provides all the processing utilities for set of spectrums
 {%- assign parts = "properties, methods" | split: ", " -%}
 
 {%- for part in parts %}
-## {{ part }}
+## {{ part | capitalize }}
 
 {%- for child in children -%}
   {%- assign type = child.path | downcase | split: "/" | slice: -2 -%}
@@ -32,7 +32,7 @@ It provides all the processing utilities for set of spectrums
 - [`{{ child.title }}`]({{ child.url | relative_url }})
   {%- endif -%}
 {%- endfor %}
-{%- endfor -%}
+{%- endfor %}
 
 ## Methods
 
