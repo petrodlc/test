@@ -23,7 +23,7 @@ It provides all the processing utilities for set of spectrums
 {% assign children = site.pages | where: "parent", page.title -%}
 {%- assign parts = "properties, methods" | split: ", " -%}
 
-{%- for part in parts %}
+{%- for part in parts -%}
 ## {{ part | capitalize }}
 
 {%- for child in children -%}
