@@ -42,8 +42,6 @@ It provides all the processing utilities for set of spectrums
   {%- assign type = child.path | downcase | split: "/" | slice: -2 -%}
   {%- if type[0] == "properties" %}
 - [`{{ child.title }}`]({{ child.url | relative_url }}) -- {{ type }}
-  {% else %}
-  - {{ type }} -- {{ type[0] }}
   {%- endif -%}
 {%- endfor %}
 
