@@ -35,7 +35,7 @@ It provides all the processing utilities for set of spectrums
 
 ## Test
 
-{{ page.path | split:"/" | slice | join:" "}}
+{{ page.path | split:"/" | join:" "}}
 
 {% for p in site.pages -%}
   {%- if page.title == p.parent -%}
