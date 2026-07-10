@@ -38,7 +38,11 @@ It provides all the processing utilities for set of spectrums
 {{ page.path }}
 
 {% for p in site.pages %}
-  - [`{{ p.title }}`]({{ p.title }}){{ page.title }}{{ p.parent }} : {% if page.title == p.parent %}True{% else %}False{% endif %}
+  {% if page.title == p.parent %}
+    - [`{{ p.title }}`]({{ p.title }}){{ page.title }}{{ p.parent }} : {% if page.title == p.parent %}True{% else %}False{% endif %}
+  {% else %}
+    - False
+  {% endif %}
 {% endfor %}
 
 {{ page.parent }}
