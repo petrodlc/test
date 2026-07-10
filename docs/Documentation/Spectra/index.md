@@ -35,8 +35,7 @@ It provides all the processing utilities for set of spectrums
 
 ## Test
 
-{% assign test = page.path %}
-{{ test }}
+{{ "a~b" | split:"~" }}
 
 {% for p in site.pages -%}
   {%- if page.title == p.parent -%}
