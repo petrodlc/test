@@ -31,6 +31,10 @@ It is resets after [`spectra.data`][data] is [set][data setter] to a new value.
 - xoffset ([`numpy.ndarray`][ndarray]{:target="_blank"}(`numpy.float`) of shape (*n*)):\
   a copy of the actual corrections stored
 
+### Deleter
+
+Resets to a [`numpy.ndarray`][ndarray]{:target="_blank"} of size (*n*) filled with `None`, where *n* is computed from current shape of [`spectra.data`][data]
+
 <!--------------------------------------------------------------------------->
 
 [data]: {{ site.url }}/Documentation/Spectra/Properties/data "spectra.data"
