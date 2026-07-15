@@ -29,7 +29,7 @@ and before [`spectra.data`][data] is [set][data setter] to a new value.
 #### Returns
 {: .no_toc }
 - mean_bkg_params ([`numpy.ndarray`][ndarray]{:target="_blank"}(`numpy.float`) of shape (*ord*, 3)):\
-  a copy of the actual mean background parameters stored in [`spectra.mean_bkg_params[:, 0, :]`][mean_bkg_params]
+  a copy of the actual mean background parameters stored
 
 <!--------------------------------------------------------------------------->
 
