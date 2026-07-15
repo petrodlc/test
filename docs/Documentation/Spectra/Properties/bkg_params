@@ -18,7 +18,7 @@ parent: spectra
 
 The parameters of the fitted baseline.
 
-Three-dimensional table, storing background fit parameters and associated uncertainties for each spectrum.
+Three-dimensional table, storing background fit parameters and associated uncertainties for each spectrum, computed when [`spectra.remove_bkg_poly`][remove_bkg_poly] is called.
 
 - *n* represents the number of spectrums in this class instance
 - *ord* is the order of the polynomial used to fit the baseline $$ + 1 $$
@@ -37,4 +37,5 @@ Resets to a [`numpy.ndarray`][ndarray]{:target="_blank"} of size (0, 2, *n*) fil
 <!--------------------------------------------------------------------------->
 
 [data]: {{ site.url }}/Documentation/Spectra/Properties/data "spectra.data"
+[remove_bkg_poly]: {{ site.url }}/Documentation/Spectra/Methods/remove_bkg_poly "spectra.remove_bkg_poly"
 [ndarray]: https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html "numpy.ndarray"
