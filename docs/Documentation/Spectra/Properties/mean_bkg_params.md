@@ -35,6 +35,7 @@ and before [`spectra.data`][data] is [set][data setter] to a new value.
 
 [data]: {{ site.url }}/Documentation/Spectra/Properties/data "spectra.data"
 [data setter]: {{ site.url }}/Documentation/Spectra/Properties/data#setter "spectra.data setter"
+[bkg_params]: {{ site.url }}/Documentation/Spectra/Properties/bkg_params "spectra.bkg_params"
 [mean_bkg_params]: {{ site.url }}/Documentation/Spectra/Properties/mean_bkg_params "spectra.mean_bkg_params"
 [compute_mean_bkg_params]: {{ site.url }}/Documentation/Spectra/Methods/compute_mean_bkg_params "spectra.compute_mean_bkg_params"
 [ndarray]: https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html "numpy.ndarray"
