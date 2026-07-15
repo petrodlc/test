@@ -2,6 +2,7 @@
 title: spectra.fit
 layout: page
 parent: spectra
+math: mathjax
 ---
 
 # `spectra.fit`
