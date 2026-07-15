@@ -18,7 +18,7 @@ parent: spectra
 
 The main data contained in the class.
 Three-dimensional table, storing raman shifts and corresponding signal and background intensities for each spectrum.
-Background intensity is the ârt substracted from the signal after baseline has been fitted with [`spectra.remove_bkg_poly`][remove_bkg_poly].
+Background intensity is the part substracted from the signal after baseline has been fitted with [`spectra.remove_bkg_poly`][remove_bkg_poly].
 
 - *n* represents the number of spectrums in this class instance
 - *m* is the number of measure points par spectrum (should be the same for all)
