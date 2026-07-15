@@ -37,6 +37,7 @@ Resets to a [`numpy.ndarray`][ndarray]{:target="_blank"} of size (8, 2, *n*) fil
 
 <!--------------------------------------------------------------------------->
 
+[data]: {{ site.url }}/Documentation/Spectra/Properties/data "spectra.data"
 [fit]: {{ site.url }}/Documentation/Spectra/Properties/fit "spectra.fit"
 [fit_lbwf]: {{ site.url }}/Documentation/Spectra/Methods/fit_lbwf "spectra.fit_lbwf"
 [ndarray]: https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html "numpy.ndarray"
