@@ -18,7 +18,7 @@ parent: spectra
 
 The mean raman shift from all spectrums.
 
-Three-dimensional table, storing raman shift mean values (`spectra.mean_shift[:, 0]`) and standard deviation (`spectra.mean_shift[:, 1]`)
+Two-dimensional table, storing raman shift mean values (`spectra.mean_shift[:, 0]`) and standard deviation (`spectra.mean_shift[:, 1]`)
 computed along 3<sup>rd</sup> axis (spectrums) of [`spectra.data`][data].
 Its value is distinct from the default only after [`spectra.compute_mean_data`][compute mean data] has been called
 and before [`spectra.data`][data] is [set][data setter] to a new value.
