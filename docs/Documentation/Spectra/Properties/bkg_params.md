@@ -21,7 +21,7 @@ The parameters of the fitted baseline.
 Three-dimensional table, storing background fit parameters and associated uncertainties for each spectrum, computed when [`spectra.remove_bkg_poly`][remove_bkg_poly] is called.
 
 - *n* represents the number of spectrums in this class instance
-- *ord* is the order of the polynomial used to fit the baseline $$ + 1 $$
+- *ord* is the order of the polynomial used to fit the baseline + 1
 
 ### Getter
 
