@@ -23,7 +23,7 @@ spectra.normalize()
 
 Normalize signal and background for each spectrum.
 
-Compute the norm of the signal function.
+Compute the norm of the signal function, then divide signal an backgroun intensities (incluing.
 The norm used is
 
 
