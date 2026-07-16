@@ -37,7 +37,7 @@ No check is ensured on files properties, so there coul be issues with very large
   Files from which [`spectra.data`][data] will be read, each file being one spectrum.
   All files should have the same number of lines.
 - mode: *t* or *b*\
-  The mode use to read files (see [python doc][read]).
+  The mode use to read files (see [python doc][read]{:target="_blank"}).
   Currently, only text mode (*t*) is supported.
 - rename: `None` or `str`\
   If not `None`, set [`spectra.name`][name] to the string provided.
@@ -59,4 +59,4 @@ No return value
 [data]: {{ site.url }}/Documentation/Spectra/Properties/data "spectra.data"
 [name]: {{ site.url }}/Documentation/Spectra/Properties/name "spectra.name"
 [path]: https://docs.python.org/3/library/pathlib.html#concrete-paths "pathlib.Path"
-[read]{:target="_blank"}: https://docs.python.org/3/tutorial/inputoutput.html#methods-of-file-objects "python input and output"
+[read]: https://docs.python.org/3/tutorial/inputoutput.html#methods-of-file-objects "python input and output"
