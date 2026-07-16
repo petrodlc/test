@@ -25,10 +25,21 @@ Normalize signal and background for each spectrum.
 
 Compute the norm of the signal function.
 The norm used is
+
+
 $$
-\left\|f\right\|^2 = \int_\mathbb{I} f(x)^2 dx
+\left\|f\right\|^2 = \int_I f\left(x\right)^2 dx
 $$
-where f is the function to normalize, and I is the interval of normalization.
+
+where $$ f $$ is the function to normalize, and $$ I $$ is the interval of normalization.
+
+For discrete cases, it become
+
+$$
+\left\|x\right\|^2 = \sum_i x_i^2
+$$
+
+with $$ \left\{x_i\right\} \in f\left(I\right) $$.
 
 ### Parameters
 
