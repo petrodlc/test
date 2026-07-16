@@ -39,7 +39,7 @@ $$
 \left\|x\right\|^2 = \sum_i x_i^2
 $$
 
-with $$ \left\{x_i\right\} \in f\left(I\right) $$.
+with $$ x = \left\[x_0, x_1, \dots, x_n\right] $$ and $$ \left\{x_i\right\} \in f\left(I\right) $$.
 
 ### Parameters
 
