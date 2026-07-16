@@ -24,7 +24,9 @@ spectra.remove_bkg_poly(inf, sup, ord=3, p0=None)
 Remove background from signal.
 
 Fit a polynomial on the signal, and substract it from the signal intensity.
-The fitted signal is taken on the interval $$ I \setminus \left] inf, sup \right[ $$.
+The fitted signal is taken on the interval
+$$ I \setminus \left] inf, sup \right[ $$
+where $$ I $$ is the total spectral range.
 Update [`spectra.data`][data] in consequence, if computation succeed.
 
 The polynomial could be of any order greater or equal to zero.
@@ -33,13 +35,13 @@ The polynomial could be of any order greater or equal to zero.
 
 - inf, sup: `floats`\
   The boundaries of the spectral range to ignore.
-- ord: $$ \text{`int`} \ge 0 $$\
+- ord: `int` $$ \ge 0 $$\
   The degree of the polynomial.
   Overrided if `p0` is not `None`.
   Shorthand for `p0=[1]*ord`
 - p0: `None` or *Array-like* of `floats`\
   If not `None`, defines the initial parameters for the fit parameters.
-  Refers to [`scipy.optimize.curve_fit` documentation][curve_fit]{:about="_blank"} for more information.
+  Refers to [`scipy.optimize.curve_fit` documentation][curve_fit]{:target="_blank"} for more information.
 
 ### Returns
 
