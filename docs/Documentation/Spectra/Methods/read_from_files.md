@@ -33,7 +33,7 @@ No check is ensured on files properties, so there coul be issues with very large
 
 ### Parameters
 
-- files: *Array-like* of `str` or [`pathlib.Path`][path]\
+- files: *Array-like* of `str` or [`pathlib.Path`][path]{:target="_blank"}\
   Files from which [`spectra.data`][data] will be read, each file being one spectrum.
   All files should have the same number of lines.
 - mode: *t* or *b*\
@@ -58,5 +58,5 @@ No return value
 
 [data]: {{ site.url }}/Documentation/Spectra/Properties/data "spectra.data"
 [name]: {{ site.url }}/Documentation/Spectra/Properties/name "spectra.name"
-[path]: https://docs.python.org/3/library/pathlib.html#concrete-paths "pathlib.Path" {:target="_blank"}
-[read]: https://docs.python.org/3/tutorial/inputoutput.html#methods-of-file-objects {:target="_blank"} "python input and output"
+[path]{:target="_blank"}: https://docs.python.org/3/library/pathlib.html#concrete-paths "pathlib.Path"
+[read]: https://docs.python.org/3/tutorial/inputoutput.html#methods-of-file-objects "python input and output"
