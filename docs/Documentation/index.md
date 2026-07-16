@@ -9,6 +9,6 @@ nav_order: 3
 {: .warning }
 > Most of the methods does not check whether their parameters are of the right type, or in the proper set of values.
 >
-> Parameters should follow this documentation specification.
+> Parameters should follow this documentation specifications.
 >
-> Provide unintended parameters could result in unexpected behaviours.
+> Providing unintended parameters could result in unexpected behaviours.
