@@ -58,5 +58,5 @@ No return value
 
 [data]: {{ site.url }}/Documentation/Spectra/Properties/data "spectra.data"
 [name]: {{ site.url }}/Documentation/Spectra/Properties/name "spectra.name"
-[path]{:target="_blank"}: https://docs.python.org/3/library/pathlib.html#concrete-paths "pathlib.Path"
-[read]: https://docs.python.org/3/tutorial/inputoutput.html#methods-of-file-objects "python input and output"
+[path]: https://docs.python.org/3/library/pathlib.html#concrete-paths "pathlib.Path"
+[read]{:target="_blank"}: https://docs.python.org/3/tutorial/inputoutput.html#methods-of-file-objects "python input and output"
