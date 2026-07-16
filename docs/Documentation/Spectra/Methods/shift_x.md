@@ -38,7 +38,7 @@ No return value
 ### Notes
 
 {: .warning }
-No check is performe to ensure that *xoffset* is one-dimensionnal.
+No check is performed to ensure that *xoffset* is one-dimensionnal.
 
 <!--------------------------------------------------------------------------->
 
