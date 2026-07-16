@@ -22,7 +22,7 @@ spectra.write_to_files(files)
 
 Save [`spectra.data`][data] to files.
 
-{:note}
+{: .note }
 Not yet implemented
 
 ### Parameters
