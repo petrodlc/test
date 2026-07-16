@@ -5,3 +5,10 @@ nav_order: 3
 ---
 
 # Documentation
+
+{: .warning }
+> Most of the methods does not check whether their parameters are of the right type, or in the proper set of values.
+>
+> Parameters should follow this documentation specification.
+>
+> Provide unintended parameters could result in unexpected behaviours.
