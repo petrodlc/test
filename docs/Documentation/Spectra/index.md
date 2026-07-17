@@ -17,7 +17,7 @@ has_toc: false
 {:toc}
 </details>
 
-`spectra` is the main (and currently the only) class provided by {{ site.title }}.
+`spectra` is the main class provided by {{ site.title }}.
 It provides all the processing utilities for set of spectrums
 
 {%- assign children = site.pages | where: "parent", page.title -%}
