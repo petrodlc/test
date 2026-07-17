@@ -22,7 +22,7 @@ spectra.compute_mean_data()
 
 Compute the mean of [`spectra.data`][data].
 
-Store the mean values and the standard deviation of ata across spectrums in [`spectra.mean_data`][mean_data].
+Store the mean values and the standard deviation of data across spectrums in [`spectra.mean_data`][mean_data].
 
 ### Parameters
 
