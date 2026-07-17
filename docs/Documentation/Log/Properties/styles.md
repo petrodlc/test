@@ -16,7 +16,7 @@ parent: log
 {:toc}
 </details>
 
-List all available styles (based on [ANSI escape codde][escape code]).
+List all available styles (based on [ANSI escape codde][escape code]{:target="_blank"}).
 
 {: .note }
 > See also
