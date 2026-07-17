@@ -18,9 +18,9 @@ nav_order: 2
 Since {{ site.title }} consists mainly on several files containing one class, all that is needed is to import these files.
 
 ## Import
-If your working directory is `/path/to/my/project`, and Ramaspec is installed in `/path/to/my/project/Ramaspec`:
+If your working directory is `/path/to/my/project`, and {{ site.title }} is installed in `/path/to/my/project/{{ site.title }}`:
 ```python
-import Ramaspec.spectra as sp
+import {{ site.title }}.spectra as sp
 ```
 and if you want logging utility outside of [`spectra`][spectra] class:
 ```python
@@ -42,7 +42,7 @@ For matplotlib usage, chack its [documentation](https://matplotlib.org/stable/ap
 {: .no_toc }
 1. In python files, write scripts and function to handle processing steps that are often repeated, such as preprocessing.
 2. Compute and store variables for simpler use in processing, like path to data.
-3. Import every thing and `Ramaspec.spectra` file from within python console
+3. Import every thing and `{{ site.title }}.spectra` file from within python console
 4. Ready to process data !
 
 {: .important }
