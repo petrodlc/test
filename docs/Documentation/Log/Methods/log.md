@@ -1,7 +1,7 @@
 ---
 title: log.log
 layout: page
-parent: spectra
+parent: log
 ---
 
 # `log.log`
