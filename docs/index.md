@@ -15,7 +15,7 @@ This site and the scripts are still in an early stage and can be improved in man
 
 Major customization of the site is mainly made throught the file `docs/_config.yml`.
 
-See [Just the Docs][just the docs] and [GitHub Pages][gihub pages] documentation for more details.
+See [Just the Docs][just the docs] and [GitHub Pages][github pages] documentation for more details.
 
 <!--------------------------------------------------------------------------->
 
