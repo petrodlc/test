@@ -15,12 +15,16 @@ nav_order: 2
 {:toc}
 </details>
 
-Since Ramaspec consists mainly on one file containing one class, all that is needed is to import that file.
+Since {{ site.title }} consists mainly on several files containing one class, all that is needed is to import these files.
 
 ## Import
 If your working directory is `/path/to/my/project`, and Ramaspec is installed in `/path/to/my/project/Ramaspec`:
 ```python
 import Ramaspec.spectra as sp
+```
+and if you want logging utility outside of [`spectra`][spectra] class:
+```python
+import {{ site.title }}.log
 ```
 
 ## Plot
@@ -46,3 +50,7 @@ For matplotlib usage, chack its [documentation](https://matplotlib.org/stable/ap
 > The purpose of live processing is not to make the same things again and again, but to be able to adapt processing depending of what data look like.
 >
 > Once the whole prcessing steps are clearly defined, and all that is left is to process the whole dataset blindly with this parameters, juste write a script, and call it once.
+
+<!--------------------------------------------------------------------------->
+
+[spectra]: {{ site.url }}/Documentation/Spectra/ "spectra"
