@@ -20,10 +20,7 @@ parent: log
 spectra.log(msg, keyword, style, keyword_style, log_level=2)
 ```
 
-Save [`spectra.data`][data] to files.
-
-{: .note }
-Not yet implemented
+Base method of all the class.
 
 ### Parameters
 
