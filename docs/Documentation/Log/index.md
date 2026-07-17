@@ -19,6 +19,12 @@ has_toc: false
 
 `log` is a class providing useful utilities to deal with errors, logs and messages.
 
+{: .highlight }
+> Documentation for this class is partial and could lacks of details.
+>
+> Some accesible methods or properties such as [`log.error`][error] or [`log.level`][level] are not yet described here.
+> You could refer to the source code (pretty strait forward) for more details.
+
 {%- assign children = site.pages | where: "parent", page.title -%}
 {%- assign parts = "properties, methods" | split: ", " -%}
 
@@ -32,3 +38,8 @@ has_toc: false
   {%- endif -%}
 {%- endfor %}
 {% endfor %}
+
+<!--------------------------------------------------------------------------->
+
+[level]: {{ site.url }}/Documentation/Log/Methos/level "log.level"
+[error]: {{ site.url }}/Documentation/Log/Methos/error "log.error"
