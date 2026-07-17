@@ -18,7 +18,7 @@ parent: log
 
 List all available styles (based on [ANSI escape codde][escape code]{:target="_blank"}).
 
-{: .note }
+{: .note-title }
 > See also
 >
 > [`log.print_styles`[print_styles]: print styles examples
