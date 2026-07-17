@@ -47,7 +47,7 @@ $$
 \left\|x\right\|^2 = \Delta \sum_i x_i^2
 $$
 
-Upadtes the values andd uncertainties of [`spectra.bkg_params`][bkg_params]
+This method updates the values andd uncertainties of [`spectra.bkg_params`][bkg_params]
 
 ### Parameters
 
