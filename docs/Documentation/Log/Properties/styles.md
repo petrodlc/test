@@ -21,7 +21,7 @@ List all available styles (based on [ANSI escape codde][escape code]{:target="_b
 {: .note-title }
 > See also
 >
-> [`log.print_styles`][print_styles]: print styles examples
+> [`log.print_styles`][print_styles]: print style examples
 
 ### Getter
 
