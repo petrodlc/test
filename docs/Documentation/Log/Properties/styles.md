@@ -42,4 +42,4 @@ Resets the name to an empty `str` (`''`).
 <!--------------------------------------------------------------------------->
 
 [print_styles]: {{ site.url }}/Documentation/Log/methods/print_styles "log.print_styles"
-[escape code]: https://en.wikipedia.org/wiki/ANSI_escape_code "ANSI escape code"
+[escape code]: https://en.wikipedia.org/wiki/ANSI_escape_code "ANSI escape code (Wikipedia)"
