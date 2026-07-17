@@ -25,7 +25,7 @@ has_toc: false
 > Some accesible methods or properties such as [`log.error`][error] or [`log.level`][level] are not yet described here.
 > You could refer to the source code (pretty strait forward) for more details.
 
-{%- assign children = site.pages | where: "parent", page.title -%}
+{% assign children = site.pages | where: "parent", page.title -%}
 {%- assign parts = "properties, methods" | split: ", " -%}
 
 {% for part in parts %}
