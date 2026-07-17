@@ -36,10 +36,15 @@ where $$ f $$ is the function to normalize, and $$ I $$ is the interval of norma
 For discrete cases, it become
 
 $$
-\left\|x\right\|^2 = \sum_i x_i^2
+\left\|x\right\|^2 = \sum_i \Delta_i \cdot x_i^2
 $$
 
 with $$ x = \left\[x_0, x_1, \dots, x_n\right] $$ and $$ \left\{x_i\right\} \in f\left(I\right) $$.
+$$ \left\{ \Delta_i \right\} $$ are the spaces between each values. If it is assume constant:
+
+$$
+\left\|x\right\|^2 = \Delta \sum_i x_i^2
+$$
 
 ### Parameters
 
