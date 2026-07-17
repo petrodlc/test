@@ -39,7 +39,8 @@ $$
 \left\|x\right\|^2 = \sum_i \Delta_i \cdot x_i^2
 $$
 
-with $$ x = \left\[x_0, x_1, \dots, x_n\right] $$ and $$ \left\{x_i\right\} \in f\left(I\right) $$.
+with $$ x = \left\[x_0, x_1, \dots, x_n\right\] $$ and $$ \left\{x_i\right\} \in f\left(I\right) $$.
+
 $$ \left\{ \Delta_i \right\} $$ are the spaces between each values. If it is assume constant:
 
 $$
