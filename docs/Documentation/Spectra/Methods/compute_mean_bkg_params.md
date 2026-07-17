@@ -22,7 +22,7 @@ spectra.compute_mean_bkg_params()
 
 Compute the mean of [`spectra.bkg_params`][bkg_params].
 
-Store the mean values, the propagated errors and the standard deviation background parameters across spectrums in [`spectra.mean_bkg_params`][mean_bkg_params].
+Store the mean values, the propagated errors and the standard deviation of background parameters across spectrums in [`spectra.mean_bkg_params`][mean_bkg_params].
 
 ### Parameters
 
