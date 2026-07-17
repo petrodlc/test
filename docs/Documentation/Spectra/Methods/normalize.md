@@ -23,7 +23,7 @@ spectra.normalize()
 
 Normalize signal and background for each spectrum.
 
-Compute the norm of the signal function, then divide signal an backgroun intensities (incluing.
+Compute the norm of the signal function, then divide signal an backgroun intensities store in [`spectra.data`][data].
 The norm used is
 
 
@@ -47,6 +47,8 @@ $$
 \left\|x\right\|^2 = \Delta \sum_i x_i^2
 $$
 
+Upadtes the values andd uncertainties of [`spectra.bkg_params`][bkg_params]
+
 ### Parameters
 
 No parameters
@@ -55,16 +57,7 @@ No parameters
 
 No return value
 
-### Raises
-
-| Exception | Cause|
-| :-------- | :--- |
-| `NotImplementedError` | If *b* is provided for file read mode |
-| `ValueError` | If *mode* is neither *t* nor *b* |
-
 <!--------------------------------------------------------------------------->
 
 [data]: {{ site.url }}/Documentation/Spectra/Properties/data "spectra.data"
-[name]: {{ site.url }}/Documentation/Spectra/Properties/name "spectra.name"
-[path]: https://docs.python.org/3/library/pathlib.html#concrete-paths "pathlib.Path"
-[read]: https://docs.python.org/3/tutorial/inputoutput.html#methods-of-file-objects "python input and output"
+[bkg_params]: {{ site.url }}/Documentation/Spectra/Properties/bkg_params "spectra.bkg_params"
