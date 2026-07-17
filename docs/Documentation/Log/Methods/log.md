@@ -32,7 +32,7 @@ Not yet implemented
 - keyword: `str`\
   A word (preferably 9 letters or less) to qualify the type of the message.
 - style: `list` of `str`\
-  The style to use for all but the message and the keyword, taken from [`log.styles`].
+  The style to use for all but the message and the keyword, taken from [`log.styles`][styles].
 - keyword_style: `list` of `str`\
   The style of the keyword, taken from [`log.styles`][styles].
 - log_level: `int`\
